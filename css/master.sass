@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto')
+
+$color-ice: #94f7ff
+$color-font: #333
+$color-font-highlight: #555
+$color-complementary: #41255f
+$color-font-complementary: #efefef
+$color-font-complementary-highlight: #dfdfdf
+
+*
+  margin: 0
+  padding: 0
+  font-family: 'Roboto', sans-serif
+
+div[class*="row"],
+div[class*="col-"]
+  padding: 0
+  margin: 0 
+
+.logo
+  height: 120px
+  width: 100px
+
+#logo-link
+  text-decoration: none
+  color: $color-font
+  font-size: 2.5em
+
+#logo-link:hover
+  color: $color-font-highlight
+
+#header
+  background-image: url(../images/bg-hero.jpg)
+  height: 100vh
+  padding: 0
+  
+  .overlay
+    background-color: rgba(0,0,0,0.5)
+    height: 100vh
+    width: 100%
+
+    .nav-link
+      color: $color-font
+      font-size: 1.2em
+
+    .nav-link:hover
+      color: $color-font-highlight
+      text-decoration: underline
+
+#header2
+  padding: 0
+
+  .nav-link
+    color: $color-font
+    font-size: 1.2em
+
+  .nav-link:hover
+    color: $color-font-highlight
+    text-decoration: underline
+
+.bg-nav
+  background-color: $color-ice
+
+.pad
+  padding: 40px 50px
+
+.abstand
+  padding: 70px 0
+
+.heading
+  padding-top: 30px
+
+.heading-color
+  color: $color-font-complementary
+
+.subheading
+  color: $color-font-highlight
+  text-transform: uppercase
+  font-size: 1em
+  letter-spacing: .5em
+
+.btn-ice
+  margin-top: 30px
+  background-color: $color-complementary
+  color: $color-font-complementary
+
+.btn-ice:hover
+  color: $color-font-complementary-highlight
+
+.btn-ice2
+  margin-top: 30px
+  background-color: $color-ice
+  color: $color-font
+
+.btn-ice2:hover
+  color: $color-font-highlight
+
+.img-fix
+  width: 30%
+  max-width: 150px
+  min-width: 100px
+
+.footer
+  background-color: $color-ice
+
+  .pad2
+    padding: 50px 0
+
+    .copyright
+      padding-top: 20px
+      color: $color-font
+      font-size: 1.2em
+
+.row-fix
+  position: relative
+  top: 25vh
+  bottom: 0
+  left: 0
+  right: 0
+
+  .login-fix
+    background-color: $color-complementary
+    padding: 30px 0
+    
+    .form
+      margin-bottom: 30px
+
+    .link-style
+      text-decoration: none
+      color: $color-ice
+      font-size: 0.8em
+      padding: 30px
+      margin: 30px 0 30px 30px
